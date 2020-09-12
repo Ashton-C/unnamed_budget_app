@@ -1,0 +1,47 @@
+Unnamed Budgeting App (Project Name: Five/Seven)
+September 2019
+Author: Ashton Christensen
+
+REQUIREMENTS---------------------------------------------------------------------------------------------------------------
+
+- Cloud Save
+    - Multi User
+
+- Easy to Use
+    - Modern-design
+    - User-minded
+        - Add transactions quickly (Add Expense(button) --> Amount(input) --> catagory(type with suggestions) --> review/extra inputs and confirm)
+        - Banking statement import would be nice, but far away?
+        - Good PF apps need to make the budgeting exercise easy.
+        - Goal Setting and tracking of progress are important features.
+        - 
+
+
+
+------------------------------------------------------------------
+
+Start
+- Login
+    - Login
+        -Forgot Password
+    - Create Account
+- Main Screen/Expenses
+    - Welcome Back USER 
+    - Balance in budget 
+    - Balance of account if added (FUTURE)
+    - add expense button
+    - last three logs, and more transactions button
+    - nav bar
+        - INCOME
+        - budget
+        - Home/expenses
+        - bills
+        - settings/account
+
+- INCOME
+    - Recurring INCOME
+    - edit/add income
+
+_budget 
+    _add catagory
+    
