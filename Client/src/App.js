@@ -1,15 +1,30 @@
 import React from 'react';
+import Login from './Login';
+import Home from './Home';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className='App'>
-      <header className='Header'>
-        <h2> CoinWatch </h2>
-      </header>
-      <body className='Body'></body>
-    </div>
-  );
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      visible: 'sdds',
+      loggedIn: true, userName: "Ash",
+      name: 'ASH KASH MANAGER'
+    }
+  }
+
+
+  render() {
+    return (
+      <div className='App'>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap" rel="stylesheet"></link>
+        {
+          this.state.userName != null ? <Home user={this.state.userName} /> : <Login name={this.state.name} />
+        }
+      </div>
+    );
+  }
 }
 
 export default App;

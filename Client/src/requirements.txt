@@ -44,4 +44,15 @@ Start
 
 _budget 
     _add catagory
-    
+
+
+On launch
+IF logged in (google open source auth) 
+    open HOME (props will be held in auth key?)
+    on user input open *(HOME and * are components)
+
+
+{wherever log in key is stored !== null ? <Home /> : <Login />}
+
+default render _home_expenses
+then {this.state.active_screen !== HomeExpenses ? <{this.state.active_screen} : <HomeExpenses />}

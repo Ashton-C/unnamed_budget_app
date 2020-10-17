@@ -1,0 +1,47 @@
+.Login {
+    width: 100vw;
+    max-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    color: #ccc;
+}
+.LoginForm {
+    position: relative;
+    padding: 2vh 0vw;
+    margin: auto;
+    font-size: 1em;
+}
+.LoginForm ul {
+    list-style-type: none;
+}
+
+.LoginInput input {
+    background: none;
+    border: none;
+    border-bottom: 2px #ccc solid;    
+    padding: .5em;
+    margin: 1.5em;
+    width: calc(30em - 5vw);
+    outline: none;
+    overflow: auto;
+}
+
+.LoginInput ::placeholder {
+    color: #ccc;
+    transition: transform .3s ease;
+}
+
+.LoginInput :focus::placeholder {
+    transform: translate(-3em, -1em) scale(.7);
+ }
+
+ .LoginButton {
+    width: 10vw;    
+    height: 5vh;
+    border-radius: 10px;
+    color: #ccc;
+    padding: auto;
+    margin: auto;
+    font-size: 1.5em;
+    border: 2px #ccc solid;
+    background: none;
+ }

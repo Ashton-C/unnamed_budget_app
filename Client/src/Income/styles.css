@@ -1,0 +1,16 @@
+.Income {
+    text-align: left;
+    padding: .5em;
+}
+.Income h2 {
+    text-align: center;
+}
+.InListItem {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px #567 solid;
+    border-bottom-right-radius: 1px;
+    margin: auto;
+    padding: .25em;
+    
+}
