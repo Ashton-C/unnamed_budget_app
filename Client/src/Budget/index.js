@@ -29,7 +29,7 @@ class Budget extends React.Component {
         {/* this.state.catdata => this.props.catdata */ }
         var total = this.total(this.state.catdata);
         return (
-            <div className='Budget'>
+            <div className='Budget scene_element scene_element--fadeinleft scene_element--slideoutright'>
                 <h2>Budget</h2>
                 {/* this.state.catdata => this.props.catdata */}
                 <CatList catdata={this.state.catdata} />

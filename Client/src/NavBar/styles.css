@@ -1,0 +1,21 @@
+.NavBar {
+    background: white;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    border-radius: 4px;
+    border: 1px #ccc solid;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    min-height: 2.5em;
+}
+
+.NavBtn {
+    display: block;
+    color: #1e4;
+    text-align: center;
+    margin: auto;
+}

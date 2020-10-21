@@ -10,7 +10,8 @@ REQUIREMENTS--------------------------------------------------------------------
 - Easy to Use
     - Modern-design
     - User-minded
-        - Add transactions quickly (Add Expense(button) --> Amount(input) --> catagory(type with suggestions) --> review/extra inputs and confirm)
+        - Add transactions quickly (Add Expense(button) --> Amount(input) 
+        --> catagory(type with suggestions) --> review/extra inputs and confirm)
         - Banking statement import would be nice, but far away?
         - Good PF apps need to make the budgeting exercise easy.
         - Goal Setting and tracking of progress are important features.

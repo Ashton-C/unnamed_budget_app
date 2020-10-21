@@ -14,7 +14,7 @@ class Income extends React.Component {
     }
     render() {
         return (
-            <div className='Income'>
+            <div className='Income scene_element scene_element--fadeinright scene_element--slideoutleft'>
                 <h2>Income</h2>
                 <h3>Recurring Income</h3>
                 <hr />
